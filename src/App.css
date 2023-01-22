@@ -231,6 +231,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .vvd{
   border-radius: 30px;
+  padding: -20px;
 }
 
 /************ Banner Css ************/
