@@ -1,4 +1,4 @@
-import meter1 from "../assets/img/meter1.svg";
+import git from "../assets/img/git";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
@@ -96,7 +96,7 @@ export const Skills = () => {
                         <h3><br></br>Tools<br></br></h3>
                         
                             <div className="item">
-                                <img src="./assets/git.png" alt="Image" />
+                                <img src={git} alt="Image" />
                                 <h5>Git</h5>
                             </div>
                             <div className="item">
