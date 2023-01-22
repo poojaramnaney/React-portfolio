@@ -36,7 +36,7 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         <p>As a Data Analyst, I am skilled in analyzing, interpreting, and communicating data. I have the ability to identify patterns, trends, and insights from large data sets using various analytical tools and techniques. I have good problem-solving skills and I am able to communicate effectively, and have an understanding of data governance and management.</p>
-                        <h3>Languages</h3>
+                        <h3>Languages<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -59,7 +59,7 @@ export const Skills = () => {
                                 <h5>Java</h5>
                             </div>
                         </Carousel>
-                        <h3>UT Framework</h3>
+                        <h3><br></br>UT Framework<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -78,7 +78,7 @@ export const Skills = () => {
                                 <h5>Seaborn</h5>
                             </div>
                         </Carousel>
-                        <h3>Database</h3>
+                        <h3><br></br>Database<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -93,7 +93,7 @@ export const Skills = () => {
                                 <h5>MongoDB</h5>
                             </div>
                         </Carousel>
-                        <h3>Tools</h3>
+                        <h3><br></br>Tools<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
