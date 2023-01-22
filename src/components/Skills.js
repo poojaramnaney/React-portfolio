@@ -1,4 +1,4 @@
-import git from "../assets/img/git";
+import git from "../assets/img/git.png";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
