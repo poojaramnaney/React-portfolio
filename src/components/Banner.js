@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 {/* <span className="tagline">Welcome</span> */}
-                <h1>{`Hi! I'm Pawan Kumar Singh`} <br></br><span className="txt-rotate" dataPeriod="10000" data-rotate='[ "Data Analyst", "Data Scientist", "Machine Learning Enthusiast", "Web3 Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hi! I'm Pawan Kumar Singh`} <br></br><span className="txt-rotate" dataPeriod="100000" data-rotate='[ "Data Analyst", "Data Scientist", "Machine Learning Enthusiast", "Web3 Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a machine learning enthusiast with a passion for new technologies and a desire to continue learning and growing. I am also a web3 enthusiast, with a keen interest in the potential of decentralized technologies. I have experience in front-end development and I am an open-source enthusiast. My interests include startups, productivity, books, and personal growth. I have been working on projects related to natural language processing and computer vision. I believe that the intersection of machine learning, web3, and open-source technology has the potential to drive significant changes in the way we live and work, and I am excited to be a part of this rapidly evolving field.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
