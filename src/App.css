@@ -1,17 +1,17 @@
 /************ Custom Font ************/
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Bold.ttf');
+	src: url('./assets/font/Poppins-Medium.ttf');
 	font-weight: 700;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Medium.ttf');
+	src: url('./assets/font/Poppins-Regular.ttf');
 	font-weight: 500;
 }
 @font-face {
 	font-family: Centra;
-	src: url('./assets/font/CentraNo2-Book.ttf');
+	src: url('./assets/font/Poppins-Light.ttf');
 	font-weight: 400;
 }
 
@@ -230,7 +230,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 .vvd{
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 /************ Banner Css ************/
@@ -301,6 +301,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+  color:burlywood;
 }
 
 /************ Skills Css ************/
