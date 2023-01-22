@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Data Analyst", "Data Scientist", "Machine Learning Enthusiast", "Web3 Enthusiast" ];
   const period = 2000;
 
   useEffect(() => {
@@ -50,14 +50,14 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row className="aligh-items-center">
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <span className="tagline">Welcome</span>
+                <h1>{`Hi! I'm Pawan Kumar Singh`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Analyst", "Data Scientist", "Machine Learning Enthusiast", "Web3 Enthusiast" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>My name is Pawan Kumar Singh, a machine learning enthusiast with a passion for new technologies and a desire to continue learning and growing. I am also a web3 enthusiast, with a keen interest in the potential of decentralized technologies. I have experience in front-end development and I am an open-source enthusiast. My interests include startups, productivity, books, and personal growth. I have been working on projects related to natural language processing and computer vision. I believe that the intersection of machine learning, web3, and open-source technology has the potential to drive significant changes in the way we live and work, and I am excited to be a part of this rapidly evolving field.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
