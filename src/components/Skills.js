@@ -92,6 +92,11 @@ export const Skills = () => {
                                 <img src={meter3} alt="Image" />
                                 <h5>MongoDB</h5>
                             </div>
+                            <div class="item">
+                                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"></img>
+                                <hr />
+                                <p class="text-box">GLASS</p>
+                            </div>
                         </Carousel>
                         <h3><br></br>Tools<br></br></h3>
                         
