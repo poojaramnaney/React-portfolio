@@ -98,14 +98,11 @@ export const Skills = () => {
                                 <p class="text-box">GLASS</p>
                             </div>
                         </Carousel>
-                        <div class="col-xs-2 col-sm-1 col-md-1 skill">
-                                <img class="img-responsive" alt="" src="https://res.cloudinary.com/jawadrashid/image/upload/v1472747175/Portfolio/Skills/Data%20Science/Python.jpg" data-toggle="skills" title="Python" />
-                        </div>
-                        {/* 
+                        <Carousel responsive={responsive} infinite={true} className="">
                         <h3><br></br>Tools<br></br></h3>
                         
                             <div className="item">
-                                <img src={git} alt="Image" />
+                                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Image" />
                                 <h5>Git</h5>
                             </div>
                             <div className="item">
@@ -155,8 +152,8 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Dart</h5>
-                            </div>
- */}                      
+                            </div>    
+                        </Carousel>               
                     </div>
                 </div>
             </div>
