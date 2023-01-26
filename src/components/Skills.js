@@ -101,6 +101,7 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="">
                         <h3><br></br>Tools<br></br></h3>
                         
+                        
                             <div className="item">
                                 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Image" />
                                 <h5>Git</h5>
