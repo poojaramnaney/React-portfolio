@@ -98,6 +98,10 @@ export const Skills = () => {
                                 <p class="text-box">GLASS</p>
                             </div>
                         </Carousel>
+                        <div class="col-xs-2 col-sm-1 col-md-1 skill">
+                                <img class="img-responsive" alt="" src="https://res.cloudinary.com/jawadrashid/image/upload/v1472747175/Portfolio/Skills/Data%20Science/Python.jpg" data-toggle="skills" title="Python" />
+                        </div>
+                        {/* 
                         <h3><br></br>Tools<br></br></h3>
                         
                             <div className="item">
@@ -152,7 +156,7 @@ export const Skills = () => {
                                 <img src={meter1} alt="Image" />
                                 <h5>Dart</h5>
                             </div>
-                      
+ */}                      
                     </div>
                 </div>
             </div>
