@@ -37,20 +37,20 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         <p>As a Data Analyst, I am skilled in analyzing, interpreting, and communicating data. I have the ability to identify patterns, trends, and insights from large data sets using various analytical tools and techniques. I have good problem-solving skills and I am able to communicate effectively, and have an understanding of data governance and management.</p>
-                        <div>
+                        
                         
                         <div class="" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 class="tagline" align="center"><br></br>Languages<br></br></h3>
+                            <h3 class="tagline" align="center"><br></br>Languages<br></br></h3>
                             <div class="column" >
                                 <img src="./images/python.png" alt="" />
                                 <h6>Python</h6>
                             </div>
                             <div class="column" >
-                            <img src="./images/html-5.png" alt="" />
+                                <img src="./images/html-5.png" alt="" />
                                 <h6>HTML</h6>
                             </div>
                             <div class="column" >
-                            <img src="./images/css.png" alt="" />
+                                <img src="./images/css.png" alt="" />
                                 <h6>CSS</h6>
                             </div>
                             <div class="column" >
@@ -62,22 +62,22 @@ export const Skills = () => {
                                 <h6>Java</h6>
                             </div>
                             {/* jupiter notebook pycharm vanila js android js */}
-                               </div>                      
+                                                    
                         </div>
-                        <div>
+                        
                         
                         <div class="" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 class="tagline" align="center"><br></br><br></br>UT Framework<br></br></h3>
+                            <h3 class="tagline" align="center"><br></br><br></br>UT Framework<br></br></h3>
                             <div class="column" >
                                 <img src="./images/pandas.png" alt="" />
                                 <h6>Pandas</h6>
                             </div>
                             <div class="column" >
-                            <img src="./images/numpy.png" alt="" />
+                                <img src="./images/numpy.png" alt="" />
                                 <h6>NumPy</h6>
                             </div>
                             <div class="column" >
-                            <img src="./images/matplotlib.png" alt="" />
+                                <img src="./images/matplotlib.png" alt="" />
                                 <h6>Matplotlib</h6>
                             </div>
                             <div class="column" >
@@ -87,22 +87,22 @@ export const Skills = () => {
                         </div>
                         
                         <div class="" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 class="tagline" align="center"><br></br>Database<br></br></h3>
+                            <h3 class="tagline" align="center"><br></br>Database<br></br></h3>
                             <div class="column" >
                                 <img src="./images/mysql.png" alt="" />
                                 <h6>MySQL</h6>
                             </div>
                             <div class="column" >
-                            <img src="./images/sql.png" alt="" />
+                                <img src="./images/sql.png" alt="" />
                                 <h6>SQL</h6>
                             </div>
                             <div class="column" >
-                            <img src="./images/mongodb.png" alt="" />
+                                <img src="./images/mongodb.png" alt="" />
                                 <h6>MongoDB</h6>
                             </div>
                                                        
                         </div>
-                        </div>
+                        
                         {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src="./images/python.png" alt="" />
@@ -164,81 +164,81 @@ export const Skills = () => {
 
                         </Carousel> 
                          */} 
-                         <div>
+                      
                         
                         <div class="" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 class="tagline" align="center"><br></br>Tools<br></br></h3>
-                            <div class="column" >
-                                <img src="./images/git.png" alt="" />
-                                <h6>Git</h6>
+                            <h3 class="tagline" align="center"><br></br>Tools<br></br></h3>
+                                <div class="column" >
+                                    <img src="./images/git.png" alt="" />
+                                    <h6>Git</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/github.png" alt="" />
+                                    <h6>Github</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/powerbi.png" alt="" />
+                                    <h6>Power BI</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/tableau.png" alt="" />
+                                    <h6>Tableau</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/keras.png" alt="" />
+                                    <h6>Keras</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/jupyter.png" alt="" />
+                                    <h6>Jupyter Notebook</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/android.png" alt="" />
+                                    <h6>Android Studio</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/vanilla.png" alt="" />
+                                    <h6>Vanilla JS</h6>
+                                </div>
+                                {/* jupiter notebook pycharm vanila js android js */}
+                                <div class="column" >
+                                    <img src="./images/pytorch.png" alt="" />
+                                    <h6>PyTorch</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/pycharm.png" alt="" />
+                                    <h6>PyCharm</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/opencv.png" alt="" />
+                                    <h6>OpenCV</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/react.png" alt="" />
+                                    <h6>React</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/react-native.png" alt="" />
+                                    <h6>React Native</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/java.png" alt="" />
+                                    <h6>Java</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/kotlin.png" alt="" />
+                                    <h6>Kotlin</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/flutter.png" alt="" />
+                                    <h6>Flutter</h6>
+                                </div>
+                                <div class="column" >
+                                    <img src="./images/dart.png" alt="" />
+                                    <h6>Dart</h6>
+                                </div>    
                             </div>
-                            <div class="column" >
-                                <img src="./images/github.png" alt="" />
-                                <h6>Github</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/powerbi.png" alt="" />
-                                <h6>Power BI</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/tableau.png" alt="" />
-                                <h6>Tableau</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/keras.png" alt="" />
-                                <h6>Keras</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/jupyter.png" alt="" />
-                                <h6>Jupyter Notebook</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/android.png" alt="" />
-                                <h6>Android Studio</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/vanilla.png" alt="" />
-                                <h6>Vanilla JS</h6>
-                            </div>
-                            {/* jupiter notebook pycharm vanila js android js */}
-                            <div class="column" >
-                                <img src="./images/pytorch.png" alt="" />
-                                <h6>PyTorch</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/pycharm.png" alt="" />
-                                <h6>PyCharm</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/opencv.png" alt="" />
-                                <h6>OpenCV</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/react.png" alt="" />
-                                <h6>React</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/react-native.png" alt="" />
-                                <h6>React Native</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/java.png" alt="" />
-                                <h6>Java</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/kotlin.png" alt="" />
-                                <h6>Kotlin</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/flutter.png" alt="" />
-                                <h6>Flutter</h6>
-                            </div>
-                            <div class="column" >
-                                <img src="./images/dart.png" alt="" />
-                                <h6>Dart</h6>
-                            </div>    
-                        </div>
-                        </div>               
+                                  
                     </div>
                 </div>
             </div>
