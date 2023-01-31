@@ -67,7 +67,7 @@ export const Skills = () => {
                         <div>
                         
                         <div class="" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 class="tagline" align="center"><br></br><br></br><br></br><br></br>UT Framework<br></br></h3>
+                        <h3 class="tagline" align="center"><br></br><br></br>UT Framework<br></br></h3>
                             <div class="column" >
                                 <img src="./images/pandas.png" alt="" />
                                 <h6>Pandas</h6>
