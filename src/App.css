@@ -339,6 +339,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding:2px;
   margin: 0 auto 15px auto;
 }
+.skill-slider .finalimg img {
+  width: 3cm;
+  height: 3cm;
+  padding:20px;
+  margin: 0 auto 15px auto;
+}
 .background-image-left {
   top: 28%;
   position: absolute;

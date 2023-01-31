@@ -102,63 +102,63 @@ export const Skills = () => {
                             
 
                         </Carousel> 
-                         <Carousel responsive={responsive} infinite={true} className="">
+                         <div responsive={responsive} infinite={true} className="">
                         <h3><br></br>Tools<br></br></h3>
                         
                         
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/git.png" alt="" />
                                 <h5>Git</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/github.png" alt="" />
                                 <h5>Github</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/flutter.png" alt="" />
                                 <h5>Power BI</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/tableau.png" alt="" />
                                 <h5>Tableau</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/flutter.png" alt="" />
                                 <h5>Keras</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/python.png" alt="" />
                                 <h5>PyTorch</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/atom.png" alt="" />
                                 <h5>OpenCV</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/atom.png" alt="" />
                                 <h5>React</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/react-native.png" alt="" />
                                 <h5>React Native</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/java.png" alt="" />
                                 <h5>Java</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/kotlin.png" alt="" />
                                 <h5>Kotlin</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/flutter.png" alt="" />
                                 <h5>Flutter</h5>
                             </div>
-                            <div className="item">
+                            <div className="finalimg">
                                 <img src="./images/dart.png" alt="" />
                                 <h5>Dart</h5>
                             </div>    
-                        </Carousel>               
+                        </div>               
                     </div>
                 </div>
             </div>
