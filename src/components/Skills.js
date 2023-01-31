@@ -93,7 +93,7 @@ export const Skills = () => {
                                 <h6>MySQL</h6>
                             </div>
                             <div class="column" >
-                            <img src="./images/sql-server.png" alt="" />
+                            <img src="./images/sql.png" alt="" />
                                 <h6>SQL</h6>
                             </div>
                             <div class="column" >
@@ -193,11 +193,11 @@ export const Skills = () => {
                                 <h6>Jupyter Notebook</h6>
                             </div>
                             <div class="column" >
-                                <img src="./images/android.jpeg" alt="" />
+                                <img src="./images/android.png" alt="" />
                                 <h6>Android Studio</h6>
                             </div>
                             <div class="column" >
-                                <img src="./images/vanilla.jpeg" alt="" />
+                                <img src="./images/vanilla.png" alt="" />
                                 <h6>Vanilla JS</h6>
                             </div>
                             {/* jupiter notebook pycharm vanila js android js */}
