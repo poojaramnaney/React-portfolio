@@ -40,19 +40,19 @@ export const Skills = () => {
                         <h3>Languages<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src="./images/python.png" alt="" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="" />
+                                <img src="./images/html-5.png" alt="" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="" />
+                                <img src="./images/css.png" alt="" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src="./images/js.png" alt="" />
                                 <h5>Java Script</h5>
                             </div>
                             <div className="item">
@@ -87,24 +87,20 @@ export const Skills = () => {
                                 <h5>MySQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="" />
+                                <img src="./images/sql.png" alt="" />
                                 <h5>SQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="" />
+                                <img src="./images/mongodb.png" alt="" />
                                 <h5>MongoDB</h5>
                             </div>
-                            <div class="item">
-                                <img src="./images/flutter.png" alt=""></img>
-                                <hr />
-                                <p class="text-box">GLASS</p>
-                            </div>
+                            
                             
 
                         </Carousel> 
                          
                         <h3><br></br>Tools<br></br></h3>
-                        <div class="column" responsive={responsive} infinite={true} className="skill-slider">
+                        <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
                         
                             <div class="column" >
                                 <img src="./images/git.png" alt="" />
@@ -126,16 +122,17 @@ export const Skills = () => {
                                 <img src="./images/flutter.png" alt="" />
                                 <h5>Keras</h5>
                             </div>
+                            {/* jupiter notebook pycharm vanila js android js */}
                             <div class="column" >
                                 <img src="./images/python.png" alt="" />
                                 <h5>PyTorch</h5>
                             </div>
                             <div class="column" >
-                                <img src="./images/atom.png" alt="" />
+                                <img src="./images/opencv.png" alt="" />
                                 <h5>OpenCV</h5>
                             </div>
                             <div class="column" >
-                                <img src="./images/atom.png" alt="" />
+                                <img src="./images/react.png" alt="" />
                                 <h5>React</h5>
                             </div>
                             <div class="column" >
