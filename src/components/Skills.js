@@ -37,7 +37,7 @@ export const Skills = () => {
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         <p>As a Data Analyst, I am skilled in analyzing, interpreting, and communicating data. I have the ability to identify patterns, trends, and insights from large data sets using various analytical tools and techniques. I have good problem-solving skills and I am able to communicate effectively, and have an understanding of data governance and management.</p>
-                        
+                        <div>
                         <h3><br></br>Languages<br></br></h3>
                         <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
                         
@@ -62,9 +62,9 @@ export const Skills = () => {
                                 <h6>Java</h6>
                             </div>
                             {/* jupiter notebook pycharm vanila js android js */}
-                                                     
+                               </div>                      
                         </div>
-                        
+                        <div>
                         <h3><br></br>UT Framework<br></br></h3>
                         <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
                         
@@ -102,7 +102,7 @@ export const Skills = () => {
                             </div>
                                                        
                         </div>
-                        
+                        </div>
                         {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src="./images/python.png" alt="" />
@@ -164,6 +164,7 @@ export const Skills = () => {
 
                         </Carousel> 
                          */} 
+                         <div>
                         <h3><br></br>Tools<br></br></h3>
                         <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
                         
@@ -236,6 +237,7 @@ export const Skills = () => {
                                 <img src="./images/dart.png" alt="" />
                                 <h6>Dart</h6>
                             </div>    
+                        </div>
                         </div>               
                     </div>
                 </div>
