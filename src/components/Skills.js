@@ -1,4 +1,5 @@
-import git from "../assets/img/Keras.svg";
+/* import git from "../assets/img/Keras.svg"; */
+import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
@@ -39,66 +40,66 @@ export const Skills = () => {
                         <h3>Languages<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="" />
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="" />
                                 <h5>Java Script</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="" />
                                 <h5>Java</h5>
                             </div>
                         </Carousel>
                         <h3><br></br>UT Framework<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="" />
                                 <h5>Pandas</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="" />
                                 <h5>NumPy</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="" />
                                 <h5>Matplotlib</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="" />
                                 <h5>Seaborn</h5>
                             </div>
                         </Carousel>
                         <h3><br></br>Database<br></br></h3>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="" />
                                 <h5>MySQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="" />
                                 <h5>SQL</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div class="item">
-                                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"></img>
+                                <img src="./images/flutter.png" alt=""></img>
                                 <hr />
                                 <p class="text-box">GLASS</p>
                             </div>
                         </Carousel>
-                        <Carousel responsive={responsive} infinite={true} className="">
+                        {/* <Carousel responsive={responsive} infinite={true} className="">
                         <h3><br></br>Tools<br></br></h3>
                         
                         
@@ -155,11 +156,11 @@ export const Skills = () => {
                                 <h5>Dart</h5>
                             </div>    
                         </Carousel>               
-                    </div>
+ */}                    </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }
