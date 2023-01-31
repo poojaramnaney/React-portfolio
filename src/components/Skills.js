@@ -104,7 +104,7 @@ export const Skills = () => {
                         </Carousel> 
                          
                         <h3><br></br>Tools<br></br></h3>
-                        <div class="row" responsive={responsive} infinite={true} className="skill-slider">
+                        <div class="column" responsive={responsive} infinite={true} className="skill-slider">
                         
                             <div class="column" className="finalimg">
                                 <img src="./images/git.png" alt="" />
