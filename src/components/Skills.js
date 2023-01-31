@@ -80,7 +80,7 @@ export const Skills = () => {
                             </div>
                         </Carousel>
                         <h3><br></br>Database<br></br></h3>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <Carousel /* responsive={responsive} infinite={true} */ className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="" />
                                 <h5>MySQL</h5>
