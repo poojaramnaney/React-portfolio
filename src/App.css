@@ -345,6 +345,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding:20px;
   margin: 0 auto 15px auto;
 }
+
+.skill-slider .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.skill-slider .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
