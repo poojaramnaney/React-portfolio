@@ -340,8 +340,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .skill-slider .finalimg img {
-  width: 3cm;
-  height: 3cm;
+  width: 50%;
+  height: 50%;
   padding:20px;
   margin: 0 auto 15px auto;
 }

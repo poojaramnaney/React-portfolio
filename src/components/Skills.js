@@ -102,7 +102,7 @@ export const Skills = () => {
                             
 
                         </Carousel> 
-                         <div class="row" responsive={responsive} infinite={true} className="">
+                         <div class="row" responsive={responsive} infinite={true} className="skill-slider">
                         <h3><br></br>Tools<br></br></h3>
                         
                         
