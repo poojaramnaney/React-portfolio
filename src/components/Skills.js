@@ -40,7 +40,7 @@ export const Skills = () => {
                         <div>
                         
                         <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 align="center"><br></br>Languages<br></br></h3>
+                        <h3 class="tagline" align="center"><br></br>Languages<br></br></h3>
                             <div class="column" >
                                 <img src="./images/python.png" alt="" />
                                 <h6>Python</h6>
@@ -67,7 +67,7 @@ export const Skills = () => {
                         <div>
                         
                         <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 align="center"><br></br>UT Framework<br></br></h3>
+                        <h3 class="tagline" align="center"><br></br>UT Framework<br></br></h3>
                             <div class="column" >
                                 <img src="./images/pandas.png" alt="" />
                                 <h6>Pandas</h6>
@@ -85,7 +85,7 @@ export const Skills = () => {
                                 <h6>Seaborn</h6>
                             </div>                           
                         </div>
-                        <h3 align="center"><br></br>Database<br></br></h3>
+                        <h3 class="tagline" align="center"><br></br>Database<br></br></h3>
                         <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
                         
                             <div class="column" >
@@ -167,7 +167,7 @@ export const Skills = () => {
                          <div>
                         
                         <div class="column" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                        <h3 align="center"><br></br>Tools<br></br></h3>
+                        <h3 class="tagline" align="center"><br></br>Tools<br></br></h3>
                             <div class="column" >
                                 <img src="./images/git.png" alt="" />
                                 <h6>Git</h6>

@@ -352,6 +352,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 5px;
  
 }
+.tagline{
+  float: center;
+  width: 100%;
+}
 
 .skill-slider .column img{
   width: 3cm;
