@@ -341,7 +341,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .box{
-  margin: 5cm 5cm;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  height: 5cm;
 }
 /* .skill-slider .finalimg img {
   width: 50%;
