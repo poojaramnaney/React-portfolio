@@ -177,7 +177,7 @@ export const Skills = () => {
                                 <h6>Github</h6>
                             </div>
                             <div class="column" >
-                                <img src="./images/flutter.png" alt="" />
+                                <img src="./images/powerbi.png" alt="" />
                                 <h6>Power BI</h6>
                             </div>
                             <div class="column" >
