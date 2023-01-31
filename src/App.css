@@ -347,9 +347,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 } */
 
 .skill-slider .column {
-  float: left;
+  float: center;
 /*   width: 33.33%; */
   padding: 5px;
+  width: 100%;
 }
 
 .skill-slider .column img{
