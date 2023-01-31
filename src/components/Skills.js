@@ -80,8 +80,8 @@ export const Skills = () => {
                             </div>
                         </Carousel>
                         <h3><br></br>Database<br></br></h3>
-                        <div>
-                            {/* <Carousel responsive={responsive} infinite={true}  className="owl-carousel owl-theme skill-slider"> */}
+                        
+                            <Carousel responsive={responsive} infinite={true}  className="owl-carousel owl-theme skill-slider"> 
                             <div className="item">
                                 <img src={meter1} alt="" />
                                 <h5>MySQL</h5>
@@ -99,67 +99,67 @@ export const Skills = () => {
                                 <hr />
                                 <p class="text-box">GLASS</p>
                             </div>
-                        </div>
+                            
 
-                        {/* </Carousel> */}
-                        {/* <Carousel responsive={responsive} infinite={true} className="">
+                        </Carousel> 
+                         <Carousel responsive={responsive} infinite={true} className="">
                         <h3><br></br>Tools<br></br></h3>
                         
                         
                             <div className="item">
-                                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Image" />
+                                <img src="./images/git.png" alt="" />
                                 <h5>Git</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src="./images/github.png" alt="" />
                                 <h5>Github</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src="./images/flutter.png" alt="" />
                                 <h5>Power BI</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/tableau.png" alt="" />
                                 <h5>Tableau</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/flutter.png" alt="" />
                                 <h5>Keras</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/python.png" alt="" />
                                 <h5>PyTorch</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/atom.png" alt="" />
                                 <h5>OpenCV</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/atom.png" alt="" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/react-native.png" alt="" />
                                 <h5>React Native</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/java.png" alt="" />
                                 <h5>Java</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/kotlin.png" alt="" />
                                 <h5>Kotlin</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/flutter.png" alt="" />
                                 <h5>Flutter</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src="./images/dart.png" alt="" />
                                 <h5>Dart</h5>
                             </div>    
                         </Carousel>               
- */}                    </div>
+                    </div>
                 </div>
             </div>
         </div>
