@@ -357,7 +357,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
 }
 .tagline{
-  float: center;
+  float: left;
   width: 100%;
   margin: 0 auto 15px auto;
   
