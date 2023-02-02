@@ -231,7 +231,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .vvd{
   border-radius: 30px;
-  padding: -20px;
+  padding-top: px;
+  padding-right: -60px;
+  padding-bottom: 5cm;
+  height: 1.5cm;
 }
 
 /************ Banner Css ************/
@@ -316,7 +319,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   height: 10cm;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-top: 70px;
+  padding-bottom: 35cm;
 }
 .skill h2 {
 	font-size: 45px;
@@ -360,10 +364,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
  
 }
 .tagline{
-  float: left;
-  position: fixed;
+  /* float: left; */
+  /* position:relative; */
   width: 100%;
-  margin: 0 auto 15px auto;
+  padding-top: 7cm;
+  padding-right: 8cm;
+  margin-top: -2cm;
+  
+  color: #fff;
   
 }
 

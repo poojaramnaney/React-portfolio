@@ -40,7 +40,7 @@ export const Skills = () => {
                         
                         
                         <div class="box" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                            <h3 class="tagline" align="center"><br></br>Languages<br></br></h3>
+                            <h3 /* class="tagline"  */align="left" padding-right="8cm">Languages</h3>
                             <div class="column" >
                                 <img src="./images/python.png" alt="" />
                                 <h6>Python</h6>
@@ -67,7 +67,7 @@ export const Skills = () => {
                         
                         
                         <div class="box" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                            <h3 class="tagline" align="center"><br></br><br></br><br></br><br></br>UT Framework<br></br></h3>
+                            <h3 class="tagline" align="left">UT Framework</h3>
                             <div class="column" >
                                 <img src="./images/pandas.png" alt="" />
                                 <h6>Pandas</h6>
@@ -87,7 +87,7 @@ export const Skills = () => {
                         </div>
                         
                         <div class="box" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                            <h3 class="tagline" align="center"><br></br><br></br><br></br><br></br>Database<br></br></h3>
+                            <h3 class="tagline" align="left">Database<br></br></h3>
                             <div class="column" >
                                 <img src="./images/mysql.png" alt="" />
                                 <h6>MySQL</h6>
@@ -167,7 +167,7 @@ export const Skills = () => {
                       
                         
                         <div class="box" responsive={responsive} infinite={true} className="owl-theme skill-slider">
-                            <h3 class="tagline" align="center"><br></br><br></br><br></br><br></br>Tools<br></br></h3>
+                            <h3  class="tagline" align="left" >Tools<br></br></h3>
                                 <div class="column" >
                                     <img src="./images/git.png" alt="" />
                                     <h6>Git</h6>
